@@ -1,7 +1,15 @@
 {
   "name": "route-picker-umi3-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "减少 umi 热更新时间, 仅适用于 umi3. 开发时通过指定关注的路由, 提高编译速度.",
+  "homepage": "https://github.com/jaykou25/route-picker-umi3-plugin",
+  "bugs": {
+    "url": "https://github.com/jaykou25/route-picker-umi3-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaykou25/route-picker-umi3-plugin"
+  },
   "main": "dist/cjs/index.js",
   "files": [
     "dist"
