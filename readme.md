@@ -54,3 +54,7 @@ export default defineConfig({
 
 ## 注意点
 1. routePicker 里指定的路由并不需要完全匹配, 部分匹配就可以生效. 比如你可以指定 'user', 那么像 'user/login', 'user/add' 等一系列路由都将被保留.
+2. routePicker 若为空或者是空数组, 则所有路由都会被保留. 
+3. 即使你并不想要过滤掉任何路由, 这个插件仍然值得开启, 因为对于约定式路由的热更新, 插件还是能够为你减少很多的时间. (上文的第一点) 
+
+本插件只适用于 umi3, 如果是 umi4 请使用 [route-picker-umi-plugin](https://github.com/jaykou25/route-picker-umi-plugin)
